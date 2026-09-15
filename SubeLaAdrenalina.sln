@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2075EE94-5A92-4358-872B-7BEB1A5D3AD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TarjetaSube", "src\TarjetaSube\TarjetaSube.csproj", "{86510DA7-8D3C-4BBE-9291-9457222491CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{BF65A7A5-3010-469D-B711-929A80711DC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TarjetaSube.Tests", "tests\TarjetaSube.Tests\TarjetaSube.Tests.csproj", "{4996B0E2-AF1A-4FFC-B57D-45300C1C7AEB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86510DA7-8D3C-4BBE-9291-9457222491CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86510DA7-8D3C-4BBE-9291-9457222491CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86510DA7-8D3C-4BBE-9291-9457222491CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86510DA7-8D3C-4BBE-9291-9457222491CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4996B0E2-AF1A-4FFC-B57D-45300C1C7AEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4996B0E2-AF1A-4FFC-B57D-45300C1C7AEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4996B0E2-AF1A-4FFC-B57D-45300C1C7AEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4996B0E2-AF1A-4FFC-B57D-45300C1C7AEB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{86510DA7-8D3C-4BBE-9291-9457222491CE} = {2075EE94-5A92-4358-872B-7BEB1A5D3AD1}
+		{4996B0E2-AF1A-4FFC-B57D-45300C1C7AEB} = {BF65A7A5-3010-469D-B711-929A80711DC8}
+	EndGlobalSection
+EndGlobal
